@@ -1,0 +1,203 @@
+/* general */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font: 400 14px/1.6 "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #777;
+}
+
+p {
+  margin: 0px 0;
+}
+
+#content {
+  margin-left: 80px;
+  margin-bottom: 80px;
+}
+
+li code {
+  color: #353535;
+}
+
+
+/* links */
+
+a {
+  color: #259dff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* logo */
+
+#logo {
+  margin-top: 280px;
+  margin-bottom: 180px;
+  margin-left: 80px;
+  padding-left: 40px;
+  width: 440px;
+  border-left: 2px solid #efefef;
+  -webkit-font-smoothing: antialiased;
+}
+
+#minilogo {
+  margin-top: 280px;
+  margin-bottom: 180px;
+  margin-left: 80px;
+  padding-left: 40px;
+  width: 440px;
+  border-left: 2px solid #efefef;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+#logo .express {
+  display: block;
+  font: 400 60px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #353535;
+  width: 110px;
+  text-align: center;
+}
+
+#logo .description {
+  position: relative;
+  top: -5px;
+  font: 100 60px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #c0c0c0;
+  line-height: .75;
+}
+
+#minilogo .description {
+  position: relative;
+  top: -5px;
+  font: 100 40px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #c0c0c0;
+  line-height: .75;
+}
+
+em {
+  color: white;
+  -webkit-user-select: none; /* Chrome/Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+
+  /* Rules below not implemented in browsers yet */
+  -o-user-select: none;
+  user-select: none;
+}
+
+/* secondary page logo */
+
+.inner #logo {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 10px 0px;
+  padding-right: 50px;
+  padding-left: 5px;
+  width: auto;
+  border-left: none;
+}
+
+.inner #logo .express {
+  font: 100 30px  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #aeaeae;
+  text-align: left;
+}
+
+.chapter #number {
+  display: inline-block;
+  margin-left: 0px;
+  margin-right: 40px;
+  padding-bottom: 15px;
+  width: 120px;
+  text-align: right;
+  font: 400 40px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  top: -25px;
+}
+
+.chapter #mininumber {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 15px;
+  width: 120px;
+  text-align: right;
+  font: 200 30px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  top: -25px;
+}
+
+.chapter #logo {
+  margin-top: 180px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  width: 440px;
+  display: inline-block;
+}
+
+.chapter #logo .title {
+  font: 400 40px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.chapter #minilogo {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  width: 440px;
+  display: inline-block;
+}
+
+.chapter #minilogo .title {
+  font: 400 35px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+
+
+.chapter .content .paragraph {
+  position: relative;
+  top: 10px;
+  left: 202px;
+  border-left: 20px;
+  margin: 10px 0px;
+  width: 450px;
+}
+
+.chapter .content .paragraph .emphatic {
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+.chapter .content .paragraph .subheading {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+#footer {
+  padding-top: 100px;
+  padding-left: 160px;
+}
+
+#footer p {
+  font-size: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

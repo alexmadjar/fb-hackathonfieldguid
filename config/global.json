@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "Happiness App": {
+            "applicationId": "ZEGF471kTbpJ68uYsj1Hgw4Bvkyu5BY6B6SEB8mA", 
+            "masterKey": "EIfn5ntkdjwpoGvbW7T1iiCPBleSF7N2Ta1WCQFL"
+        }, 
+        "_default": {
+            "link": "Happiness App"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.2.12"
+    }
+}
